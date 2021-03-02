@@ -12,6 +12,8 @@ Tool made for extracting specific info from pcap files.
 
 Note: *This also works outside of the homework! You need only supply an IP wordlist, port wordlist, and parsed pcap file (using tshark)*
 
+
+
 **How to install**
 1. Install all deps
 ```
@@ -21,14 +23,21 @@ apt-get install tshark bash grep
 ```
 git clone https://github.com/elogada/homework
 cd homework
+chmod +rwx project1.sh
 ```
+
+
 **Usage**
 ```
 ./project1.sh IPAddressWordlist.txt PortWordlist.txt tsharkOutput.txt
 ```
-example for this homework:
+_example for this homework:_
 ```
-./porject1.sh ips.txt ports.txt all_traffic.txt
+./project1.sh ips.txt ports.txt all_traffic.txt
+```
+_If you wish to save the output, simply do:_
+```
+./project1.sh ips.txt ports.txt all_traffic.txt > output.txt
 ```
 
 **Note** If providing your own pcap file, make sure to provide a _tsharkOutput.txt_ file from your _pcap_ files by using
