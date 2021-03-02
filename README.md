@@ -17,7 +17,7 @@ Note: *This also works outside of the homework! You need only supply an IP wordl
 **How to install**
 1. Install all deps
 ```
-apt-get install tshark bash grep
+apt-get install tshark bash grep git
 ```
  2. Clone the repo
 ```
